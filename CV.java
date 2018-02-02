@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class CV{
   
   private String nom;
@@ -36,7 +38,7 @@ public class CV{
 		    "\nprenom : " + this.prenom +
 		    "\nFormation : " + this.formation +
 		    "\nExpériences : " + this.experience +
-		    "\nCompétences : " + this.competencesLisible +
+		    "\nCompétences : " + competencesLisible +
 		    "\nAttentes : " + this.attentes);
   }
   
